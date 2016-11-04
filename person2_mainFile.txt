@@ -1,0 +1,10 @@
+
+import javax.swing.JFrame;
+public class ServerTest1 {
+       public static void main(String ars[]){
+    	   Server1 viny = new Server1();
+    	   viny.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    	   viny.startRunning();
+       }
+}
+

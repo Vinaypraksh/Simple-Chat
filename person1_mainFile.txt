@@ -1,0 +1,10 @@
+
+import java.io.IOException;
+import javax.swing.JFrame;
+public class ClientTest1 {
+	public static void main(String args[]) throws IOException{
+		Client1 anu = new Client1("127.0.0.1");
+		anu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		anu.startRunning();
+	}
+}

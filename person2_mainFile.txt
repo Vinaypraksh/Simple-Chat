@@ -1,4 +1,7 @@
 
+
+//The file which is using by second person. It contains main method.
+//In it object of class Server or person2 is created and startRunning is called.
 import javax.swing.JFrame;
 public class ServerTest1 {
        public static void main(String ars[]){
